@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO, format="[%(asctime)s] [%(levelname)s] - 
 logging.info("Starting the program")
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "OPENAI_KEY"
 
 # Define a function to send text to OpenAI and get a response
 def chat(text):
